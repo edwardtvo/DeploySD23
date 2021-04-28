@@ -1,0 +1,30 @@
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  #title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.table td, #table th {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.table tr:hover {background-color: #df4040;}
+  
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #df4040;
+    color: white;
+  }
